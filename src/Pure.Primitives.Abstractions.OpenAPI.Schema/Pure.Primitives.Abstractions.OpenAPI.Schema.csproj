@@ -4,8 +4,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <IsAotCompatible>false</IsAotCompatible>
+    <IsAotCompatible>true</IsAotCompatible>
     <!--<EnablePackageValidation>true</EnablePackageValidation>
     <PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>-->
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.Primitives.Abstractions.OpenAPI.Schema</PackageId>
+    <RootNamespace>Pure.Primitives.Abstractions.OpenAPI.Schema</RootNamespace>
+    <AssemblyName>Pure.Primitives.Abstractions.OpenAPI.Schema</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions.OpenAPI.Schema</PackageProjectUrl>
   </PropertyGroup>
 </Project>
