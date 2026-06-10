@@ -17,6 +17,6 @@
     <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions.OpenAPI.Schema</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
   </ItemGroup>
 </Project>
