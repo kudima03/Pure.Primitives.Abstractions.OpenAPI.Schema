@@ -15,6 +15,8 @@ dotnet format && csharpier format .                   # auto-fix code style
 dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
+CI additionally passes `-p:AssemblyVersion` (pinned to the major) and `-p:FileVersion`; see `.github/workflows/publish-nuget.yml`.
+
 ## Architecture
 
 This is a **single-class NuGet library** — one public type, no state, no configuration.
