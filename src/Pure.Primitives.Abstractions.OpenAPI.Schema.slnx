@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Pure.Primitives.Abstractions.OpenAPI.Schema.Tests/Pure.Primitives.Abstractions.OpenAPI.Schema.Tests.csproj" />
+  </Folder>
+  <Project Path="Pure.Primitives.Abstractions.OpenAPI.Schema/Pure.Primitives.Abstractions.OpenAPI.Schema.csproj" />
+</Solution>
