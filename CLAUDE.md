@@ -27,7 +27,7 @@ The library itself does **not** reference `Pure.Primitives.Abstractions` as a Nu
 
 **Test project** (`src/Tests/`): xUnit, targets net10.0. Tests directly instantiate `PrimitivesDocumentTransformer`, pass hand-crafted `OpenApiDocument` instances, and assert the resulting schema type and format.
 
-**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.0.3.0`. Breaking changes fail the build.
+**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.0.3.1`. Breaking changes fail the build.
 
 **AOT:** `IsAotCompatible = true`. Keep all new code AOT-safe (no reflection over unknown types, no `dynamic`).
 
