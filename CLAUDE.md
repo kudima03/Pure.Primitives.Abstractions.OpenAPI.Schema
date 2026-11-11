@@ -25,7 +25,7 @@ This is a **single-class NuGet library** — one public type, no state, no confi
 
 The library itself does **not** reference `Pure.Primitives.Abstractions` as a NuGet dependency — it only knows the string schema names that ASP.NET Core emits when it reflects over those interfaces.
 
-**Test project** (`src/Tests/`): xUnit, targets net10.0. Tests directly instantiate `PrimitivesDocumentTransformer`, pass hand-crafted `OpenApiDocument` instances, and assert the resulting schema type and format.
+**Test project** (`src/Tests/`): xUnit, targets net11.0. Tests directly instantiate `PrimitivesDocumentTransformer`, pass hand-crafted `OpenApiDocument` instances, and assert the resulting schema type and format.
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.0.3.1`. Breaking changes fail the build.
 

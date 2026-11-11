@@ -39,6 +39,7 @@ Schema names follow ASP.NET Core OpenAPI's convention of concatenating the inter
 ## Target Frameworks
 
 - .NET 10
+- .NET 11
 
 ## Installation
 
